@@ -1,7 +1,7 @@
 // FUNCTIONS
 
 // function logger() {
-//     console.log("logger");
+//     console.log("logger  jogger");
 // }
 
 // logger();  //calling the function
@@ -19,7 +19,7 @@
 
 // --> Calculating age of a person
 function age1(birthYear) {
-    return 2024 - birthYear;
+  return 2024 - birthYear;
 }
 const ageofPerson = age1(1999);
 console.log(ageofPerson);
@@ -27,7 +27,7 @@ console.log(ageofPerson);
 // FUNCTION EXPRESSION
 
 const calculatedAge = function (birthYear) {
-    return 2024 - birthYear;
-}
+  return 2024 - birthYear;
+};
 const age2 = calculatedAge(1998);
 console.log(ageofPerson, age2);
